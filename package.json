@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "dev": "NODE_ENV=development electron .",
-    "start": "electron .",
+    "dev": "node init && NODE_ENV=development electron .",
+    "start": "node init && electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
